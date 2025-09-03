@@ -1,33 +1,34 @@
-📝 Task 1 – Exploratory Data Analysis (EDA)
+📝 Task 2 – Machine Learning Model (Classification)
 🎯 Goal
 
-Perform a complete exploratory data analysis on a real dataset to find trends, correlations, and insights.
+Build and evaluate machine learning models for classification.
 
 📂 Dataset
 
-Titanic Dataset (Kaggle)
-👉 Titanic Dataset Link
+Breast Cancer Dataset (scikit-learn built-in)
 
 🔑 Steps
 
-Load dataset using pandas.
+Load dataset from sklearn.datasets.
 
-Data cleaning (missing values, duplicates, categorical encoding).
+Train-test split (80/20).
 
-Data visualization using matplotlib & seaborn.
+Standardize features using StandardScaler.
 
-Histogram (Age distribution)
+Train Logistic Regression and Random Forest.
 
-Heatmap (Correlation matrix)
+Evaluate models using:
 
-Countplot (Male vs Female Survival)
+Accuracy, Precision, Recall, F1-score
 
-Statistical insights: Mean, Median, Mode, Variance, Std Dev.
+Confusion Matrix
+
+ROC-AUC curve
 
 📊 Outcome
 
-Visual insights into Titanic passenger survival trends.
+Comparison between Logistic Regression & Random Forest.
 
-Correlation matrix for numerical features.
+Performance metrics and ROC-AUC plots.
 
-Summary statistics for key features.
+Random Forest generally performs better on this dataset.
