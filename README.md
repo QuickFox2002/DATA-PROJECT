@@ -1,34 +1,35 @@
-📝 Task 2 – Machine Learning Model (Classification)
+📝 Task 3 – Time Series Analysis & Forecasting
 🎯 Goal
 
-Build and evaluate machine learning models for classification.
+Analyze and forecast future values using a time series dataset.
 
 📂 Dataset
 
-Breast Cancer Dataset (scikit-learn built-in)
+AirPassengers Dataset
+👉 AirPassengers CSV
 
 🔑 Steps
 
-Load dataset from sklearn.datasets.
+Load dataset with pandas, parse dates, set index.
 
-Train-test split (80/20).
+Data preprocessing (handle missing values).
 
-Standardize features using StandardScaler.
+Visualization:
 
-Train Logistic Regression and Random Forest.
+Time series plot
 
-Evaluate models using:
+Rolling mean & standard deviation
 
-Accuracy, Precision, Recall, F1-score
+Model building using ARIMA (with fallback to SARIMAX if needed).
 
-Confusion Matrix
+Forecast next 12 months.
 
-ROC-AUC curve
+Evaluate with RMSE (Root Mean Squared Error).
 
 📊 Outcome
 
-Comparison between Logistic Regression & Random Forest.
+Forecasted airline passenger numbers.
 
-Performance metrics and ROC-AUC plots.
+Line plots showing actual vs predicted values.
 
-Random Forest generally performs better on this dataset.
+RMSE score as evaluation metric.
